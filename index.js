@@ -1,4 +1,3 @@
-//import * as dayjs from "dayjs";
 import dayjs from "dayjs";
 const time_h1 = document.querySelector(".current-time");
 /*
@@ -23,7 +22,7 @@ const timeInterv = setInterval(() => getTime(), 1000);
 timeInterv;
 */
 const getTime = () => {
-    const now = dayjs();
-    console.log(now);
+  const now = dayjs();
+  console.log(now);
 };
 getTime();

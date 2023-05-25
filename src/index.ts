@@ -1,4 +1,3 @@
-//import * as dayjs from "dayjs";
 import dayjs, { type Dayjs } from "dayjs";
 
 const time_h1: HTMLInputElement = document.querySelector(".current-time");
