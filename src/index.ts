@@ -23,5 +23,4 @@ const getTime = () => {
   time_h1.innerHTML = hours + ":" + minutes + ":" + seconds;
 };
 
-const timeInterv = setInterval(()=>getTime(),1000)
-timeInterv;
+setInterval(()=>getTime(),1000)
